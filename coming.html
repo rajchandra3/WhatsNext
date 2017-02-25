@@ -2,25 +2,42 @@
 <html>
 <head>
     <title>Coming Up</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="animate.css">
     <link href="https://fonts.googleapis.com/css?family=Acme|Alegreya|Pacifico|Pangolin|Shadows+Into+Light" rel="stylesheet">
     <style type="text/css">
         h1{
+            text-align: center;
             color: white;
             font-family: Comic sans MS;
-            margin-top: 3in;
-            font-size: 0.5in;
+            float: center;
+            font-size: 30px;
+            margin-top: 20%;
         }
         p{
+            text-align: center;
             color: white;
             font-family: Comic sans MS;
-            font-size: 0.5in;
-            margin-left: 40%;
+            font-size: 60px;
+        }
+        l{
+            color: white;
+            font-family: Comic sans MS;
+            font-size: 25px;
+            margin-left: 41%;
+        }
+        body{
+            background-color: #104E8B;
         }
     </style>
 </head>
-<body bgcolor="#104E8B">
-    <h1>Coming Up Next Is</h1>
-    <p>Lingo</p>
+<body id="body">
+    <div>
+        <h1 id="header" onmouseover="delay()">Coming Up Next Is</h1>
+        <p id="throw_output" class="main"></p>
+        <l id="line" class="a bounceInRight animated">the new word game</l>
+    </div>
+
+    <script type="text/javascript" src="delay.js"></script>
 </body>
 </html>
