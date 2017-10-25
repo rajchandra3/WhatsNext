@@ -1,4 +1,4 @@
 # WhatsNext
-Here I will show what I am working on!
-the future project is here.
+Here,There is a stack of my upcoming projects.
+You can have a look from here.
 
